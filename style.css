@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+table td:nth-child(2),
+table td:nth-child(3) {
+    text-align:center;
+}
+
+.prog-lang-classification th, 
+.prog-lang-classification td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.student_marks th,
+.student_marks td {
+    border: 5px solid black;
+    padding: 4px;
+    background-color: aquamarine;
+}
+
+.par {
+    padding: 12px;
+    width: 600px;
+}
+
+.red {
+    background-color: rgba(194, 86, 78, 0.637);
+}
+
+.yellow {
+    background-color: rgba(247, 225, 30, 0.452);
+}
+
+.green {
+    background-color: rgba(72, 143, 54, 0.493);
+}
+
+.flip_vert {
+    transform: scaleY(-1);
+}
